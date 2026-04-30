@@ -22,3 +22,26 @@ h3{
 div > input{
     background-color: antiquewhite;
 }
+button:hover{
+    background-color: black;
+    color: white;
+}
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+.post:nth-of-type(2n){
+    background-color: bisque;
+}
+h3::first-letter{
+    color: aqua;
+}
+p::first-line{
+    color: blue;
+}
+p::selection{
+    background-color: green;
+}
+div{
+    background-color: aqua;
+}
